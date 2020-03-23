@@ -117,12 +117,6 @@ esac
 ])
 AC_SUBST([ac_cv_dir_trailing_space])
 
-# Initialize the test suite.
-AC_CONFIG_TESTDIR([tests])
-AC_CONFIG_FILES([tests/atlocal])
-AC_PATH_PROG([EXPR], [expr])
-
-
 ## ---- ##
 ## M4.  ##
 ## ---- ##
@@ -132,13 +126,6 @@ AC_PATH_PROG([EXPR], [expr])
 # on it and get that path embedded in the installed autoconf and
 # autoheader scripts.
 AC_PROG_GNU_M4
-
-## ----------- ##
-## Man pages.  ##
-## ----------- ##
-
-AM_MISSING_PROG([HELP2MAN], [help2man])
-
 
 ## ------ ##
 ## Perl.  ##
