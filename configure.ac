@@ -20,7 +20,7 @@
 AC_PREREQ([2.62])
 
 AC_INIT([GNU Autoconf],
-	m4_esyscmd([build-aux/git-version-gen .tarball-version]),
+	[2.69],
 	[bug-autoconf@gnu.org])
 AC_CONFIG_SRCDIR([lib/autoconf/autoconf.m4])
 
