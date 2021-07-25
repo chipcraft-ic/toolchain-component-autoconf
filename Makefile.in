@@ -442,6 +442,7 @@ dist_perllib_DATA = \
   lib/Autom4te/C4che.pm \
   lib/Autom4te/ChannelDefs.pm \
   lib/Autom4te/Channels.pm \
+  lib/Autom4te/Config.pm \
   lib/Autom4te/Configure_ac.pm \
   lib/Autom4te/FileUtils.pm \
   lib/Autom4te/General.pm \
@@ -455,24 +456,25 @@ dist_lisp_LISP = lib/emacs/autoconf-mode.el lib/emacs/autotest-mode.el
 autoconflibdir = $(pkgdatadir)/autoconf
 dist_autoconflib_DATA = \
   lib/autoconf/autoconf.m4 \
-  lib/autoconf/general.m4 \
-  lib/autoconf/status.m4 \
-  lib/autoconf/oldnames.m4 \
-  lib/autoconf/specific.m4 \
   lib/autoconf/autoheader.m4 \
-  lib/autoconf/autoupdate.m4 \
-  lib/autoconf/autotest.m4 \
   lib/autoconf/autoscan.m4 \
-  lib/autoconf/lang.m4 \
+  lib/autoconf/autotest.m4 \
+  lib/autoconf/autoupdate.m4 \
   lib/autoconf/c.m4 \
   lib/autoconf/erlang.m4 \
   lib/autoconf/fortran.m4 \
   lib/autoconf/functions.m4 \
+  lib/autoconf/general.m4 \
   lib/autoconf/go.m4 \
   lib/autoconf/headers.m4 \
-  lib/autoconf/types.m4 \
+  lib/autoconf/lang.m4 \
   lib/autoconf/libs.m4 \
-  lib/autoconf/programs.m4
+  lib/autoconf/oldnames.m4 \
+  lib/autoconf/programs.m4 \
+  lib/autoconf/specific.m4 \
+  lib/autoconf/status.m4 \
+  lib/autoconf/trailer.m4 \
+  lib/autoconf/types.m4
 
 nodist_autoconflib_DATA = lib/autoconf/autoconf.m4f
 autoscanlibdir = $(pkgdatadir)/autoscan
